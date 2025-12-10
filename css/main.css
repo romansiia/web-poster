@@ -502,9 +502,17 @@
     margin-left: 64vw;
     margin-top: -29vw;
     height: 27.5vw;
-    overflow: hidden;
+    width: 36vw;
+    animation: sprite 5s steps(4) infinite;
+    background-size: 400% 100%;
+    background: url("../img/worms.svg");
 }
 
+@keyframes sprite {
+    from { background-position: 0 0; }
+    to { background-position: -100% 0; }
+}
+ 
 .worms img {
-    height: 27.5vw;
+    height: 100%;
 }
