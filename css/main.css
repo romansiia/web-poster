@@ -497,29 +497,49 @@
   transform: scaleX(1.2);            
 }
 
+.worms_img {
+height: 100%;
+
+}
 .worms {
     margin-left: 64vw;
     margin-top: -29vw;
     height: 27.5vw;
     width: 36vw;
+    overflow: hidden;
     position: absolute;
-    animation: sprite 5s steps(4) infinite;
+    animation: sprite 5s steps(1) infinite;
     background-size: 400% 100%;
-    background: url("../img/worms.svg");
 }
 
 @keyframes sprite {
-    from { background-position: 0 0; }
-    to { background-position: -100% 0; }
+    0% {background-position: 0px top;}
+    25% {background-position: -468px top;}
+    50% {background-position: -932px top;}
+    75% {background-position: -1400px top;}
+    100% {background-position: 0px top;}
 }
  
-.worms img {
-    height: 100%;
-}
+
 
 
 .eat {
     height: 30vw;
     width: 30vw;
     overflow: hidden;
+    position: absolute;
+    animation: sprite2 5s steps(1) infinite;
+    background-size: 700% 100%;
+    background-image: url("../img/eat.svg") no-repeat ;
+}
+
+@keyframes sprite2 {
+    0% {background-position: 0px top;}
+    14% {background-position: -467px top;}
+    28% {background-position: -934px top;}
+    42% {background-position: -1430px top;}
+    56% {background-position: -1897px top;}
+    70% {background-position: -2364px top;}
+    84% {background-position: -2831px top;}
+    100% {background-position: -3298px top;}
 }
