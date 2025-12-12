@@ -772,10 +772,11 @@ position: absolute;
     position: absolute;
     margin-left: 2vw;
     animation: book1_fall 5s ease-in forwards infinite;
+    width: 90%;
 }
 
 @keyframes book1_fall {
-  0% {top: -10vw;}
+  0% {top: -15vw;}
   20% {top: 20vw;}
   100% {top: 20vw;}
 }
@@ -784,10 +785,11 @@ position: absolute;
     position: absolute;
     margin-left: 4vw;
     animation: book2_fall 5s ease-in forwards infinite;
+    width: 80%;
 }
 
 @keyframes book2_fall {
-  0% {top: -10vw;}
+  0% {top: -15vw;}
   20% {top:-10vw;}
   40% {top: 17vw;}
   100% {top: 17vw;}
@@ -797,10 +799,11 @@ position: absolute;
     position: absolute;
     margin-left: 3vw;
     animation: book3_fall 5s ease-in forwards infinite;
+    width: 90%;
 }
 
 @keyframes book3_fall {
-  0% {top: -10vw;}
+  0% {top: -15vw;}
   40% {top:-10vw;}
   60% {top: 13vw;}
   100% {top: 13vw;}
@@ -810,10 +813,11 @@ position: absolute;
     position: absolute;
     margin-left: 5vw;
     animation: book4_fall 5s ease-in forwards infinite;
+    width: 82%;
 }
 
 @keyframes book4_fall {
-  0% {top: -10vw;}
+  0% {top: -15vw;}
   60% {top:-10vw;}
   80% {top: 10vw;}
   100% {top: 10vw;}
@@ -829,24 +833,37 @@ position: absolute;
   100% {margin-left: 30vw;}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .page {
     position: relative;
     width: 50vw;
 }
+
+.page_img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .chervi {
     position: relative;
@@ -854,5 +871,98 @@ position: absolute;
     margin-top: -57vw;
     height: 33vw;
     width: 50vw;
-    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.chervi_img {
+    height: 100%;
+    animation: sprite3 3s steps(1) infinite;
+    position: absolute;
+}
+
+@keyframes sprite3 {
+    0%   { transform: translateX(0%); }
+    16.7%  { transform: translateX(-50vw); }
+    33.4%  { transform: translateX(-100vw); }
+    50.1%  { transform: translateX(-150vw); }
+    66.8%  { transform: translateX(-200vw); }
+    83.5%  { transform: translateX(-250vw); }
+    100%  { transform: translateX(-300vw); }
+}
+
+.phrase2 {
+    position: absolute;
+    background-color: #A6B5B7; 
+    margin-left: 50vw;
+    margin-top: 1vw;
+    width: 50vw;
+    height: 22vw;
+    overflow: hidden;
+}
+
+.phrase2 img {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  opacity: 0;
+  animation: change2 3s infinite;
+}
+
+.phrase2 img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.phrase2 img:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.phrase2 img:nth-child(3) {
+  animation-delay: 2s;
+}
+
+@keyframes change2 {
+  0%   { opacity: 0; }
+  33%  { opacity: 1; }
+  66%  { opacity: 0; }
+  100%  { opacity: 0; }
+}
+
+.run-line {
+    background-color: black;
+    margin-top: 1vw;
+    height: 10vw;
+    width: 100%;
+    margin-top: 24vw;
+    position: relative;
+}
+
+.line p {
+  font-size: 7vw;
+  width: 800%;
+  font-family: "Helvetica-Bold";
+  color: white;
+}
+
+.line {
+  position: absolute;
+  animation: row 6s linear infinite;
+}
+
+@keyframes row {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.line:hover {
+  animation-play-state: paused;
+}
+
+.line p span:hover {
+  color: #CAD6D8;
 }
