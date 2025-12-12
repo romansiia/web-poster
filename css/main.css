@@ -46,12 +46,8 @@
     }
 }
 @keyframes rot1 {
-    0% {
-        rotate: 70deg;
-    }
-    100% {
-        rotate: -10deg
-    }
+    0% {rotate: 70deg;}
+    100% {rotate: -10deg}
 }
 
 
@@ -81,12 +77,8 @@
     }
 }
 @keyframes rot2 {
-    0% {
-        rotate: -70deg;
-    }
-    100% {
-        rotate: -20deg
-    }
+    0% {rotate: -70deg;}
+    100% {rotate: -20deg}
 }
 
 
@@ -116,12 +108,8 @@
     }
 }
 @keyframes rot3 {
-    0% {
-        rotate: -70deg;
-    }
-    100% {
-        rotate: -20deg
-    }
+    0% {rotate: -70deg;}
+    100% {rotate: -20deg}
 }
 
 
@@ -151,12 +139,8 @@
     }
 }
 @keyframes rot4 {
-    0% {
-        rotate: 70deg;
-    }
-    100% {
-        rotate: -10deg
-    }
+    0% {rotate: 70deg;}
+    100% {rotate: -10deg}
 }
 
 
@@ -186,12 +170,8 @@
     }
 }
 @keyframes rot5 {
-    0% {
-        rotate: 0deg;
-    }
-    100% {
-        rotate: 50deg
-    }
+    0% {rotate: 0deg;}
+    100% {rotate: 50deg}
 }
 
 
@@ -221,12 +201,8 @@
     }
 }
 @keyframes rot6 {
-    0% {
-        rotate: -15deg;
-    }
-    100% {
-        rotate: -70deg
-    }
+    0% {rotate: -15deg;}
+    100% {rotate: -70deg}
 }
 
 
@@ -256,12 +232,8 @@
     }
 }
 @keyframes rot7 {
-    0% {
-        rotate: -70deg;
-    }
-    100% {
-        rotate: -20deg
-    }
+    0% {rotate: -70deg;}
+    100% {rotate: -20deg}
 }
 
 
@@ -291,12 +263,8 @@
     }
 }
 @keyframes rot8 {
-    0% {
-        rotate: -15deg;
-    }
-    100% {
-        rotate: -50deg
-    }
+    0% {rotate: -15deg;}
+    100% {rotate: -50deg}
 }
 
 
@@ -326,12 +294,8 @@
     }
 }
 @keyframes rot9 {
-    0% {
-        rotate: 0deg;
-    }
-    100% {
-        rotate: 80deg
-    }
+    0% {rotate: 0deg;}
+    100% {rotate: 80deg}
 }
 
 
@@ -361,12 +325,8 @@
     }
 }
 @keyframes rot10 {
-    0% {
-        rotate: -70deg;
-    }
-    100% {
-        rotate: -20deg
-    }
+    0% {rotate: -70deg;}
+    100% {rotate: -20deg}
 }
 
 
@@ -428,12 +388,8 @@
 }
 
 @keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
+  from {transform: translateX(0);}
+  to {transform: translateX(-50%);}
 }
 
 .phrase {
@@ -458,7 +414,7 @@
 }
 
 .grizi:hover {
-  transform: scaleX(1.85);            
+  transform: scaleX(1.95);            
 }
 
 .so_div {
@@ -476,7 +432,7 @@
 }
 
 .so:hover {
-  transform: scaleX(5);            
+  transform: scaleX(5.5);            
 }
 
 .smislom_div {
@@ -494,52 +450,409 @@
 }
 
 .smislom:hover {
-  transform: scaleX(1.2);            
+  transform: scaleX(1.26);            
 }
 
 .worms_img {
 height: 100%;
+width: 400%;
+animation: sprite 1s steps(1) infinite;
+position: absolute;
 
 }
+
 .worms {
-    margin-left: 64vw;
+    position: relative;
+    margin-left: 68vw;
     margin-top: -29vw;
-    height: 27.5vw;
-    width: 36vw;
-    overflow: hidden;
-    position: absolute;
-    animation: sprite 5s steps(1) infinite;
-    background-size: 400% 100%;
+    height: 25vw;
+    width: 32vw;
+    overflow-y: hidden;
+
 }
 
 @keyframes sprite {
-    0% {background-position: 0px top;}
-    25% {background-position: -468px top;}
-    50% {background-position: -932px top;}
-    75% {background-position: -1400px top;}
-    100% {background-position: 0px top;}
+    0%   { transform: translateX(0%); }
+    25%  { transform: translateX(-32vw); }
+    50%  { transform: translateX(-64vw); }
+    75%  { transform: translateX(-96vw); }
+    100% { transform: translateX(0); } 
 }
- 
 
-
+.blocks{
+    margin-top: 2vw;
+    height: 32vw;
+    width: 100%;
+}
 
 .eat {
-    height: 30vw;
-    width: 30vw;
+    height: 32vw;
+    width: 32vw;
     overflow: hidden;
     position: absolute;
-    animation: sprite2 5s steps(1) infinite;
-    background-size: 700% 100%;
-    background-image: url("../img/eat.svg") no-repeat ;
+}
+
+.eat_img {
+    height: 100%;
+    animation: sprite2 3s steps(1) infinite;
+    position: absolute;
 }
 
 @keyframes sprite2 {
-    0% {background-position: 0px top;}
-    14% {background-position: -467px top;}
-    28% {background-position: -934px top;}
-    42% {background-position: -1430px top;}
-    56% {background-position: -1897px top;}
-    70% {background-position: -2364px top;}
-    84% {background-position: -2831px top;}
-    100% {background-position: -3298px top;}
+    0%   { transform: translateX(0%); }
+    12%  { transform: translateX(-32vw); }
+    25%  { transform: translateX(-64vw); }
+    37%  { transform: translateX(-96vw); }
+    50%  { transform: translateX(-128vw); }
+    62%  { transform: translateX(-160vw); }
+    75%  { transform: translateX(-192vw); }
+    87%  { transform: translateX(-224vw); }
+    100% { transform: translateX(0); } 
+}
+
+.q_a {
+    width: 32vw;
+    height: 32vw;
+    background-color: black;
+    position: relative;
+    margin-left: 34vw;
+}
+
+.question_div1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 8vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 16vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div4 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 24vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div5 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 8vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div6 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 8vw;
+    margin-top: 8vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div7 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 16vw;
+    margin-top: 8vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div8 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 24vw;
+    margin-top: 8vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div9 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 16vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div10 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 8vw;
+    margin-top: 16vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div11 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 16vw;
+    margin-top: 16vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div12 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 24vw;
+    margin-top: 16vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div13 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 24vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div14 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 8vw;
+    margin-top: 24vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div15 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 16vw;
+    margin-top: 24vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question_div16 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 24vw;
+    margin-top: 24vw;
+    height: 8vw;
+    width: 8vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.question {
+    color: white;
+    font-size: 15vw;
+    font-family: "Helvetica-Bold";
+    margin-top: -3vw;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.question_div1 .question { animation-delay: 0.0s; }
+.question_div2 .question { animation-delay: 0.2s; }
+.question_div3 .question { animation-delay: 0.4s; }
+.question_div4 .question { animation-delay: 0.6s; }
+.question_div5 .question { animation-delay: 0.1s; }
+.question_div6 .question { animation-delay: 0.3s; }
+.question_div7 .question { animation-delay: 0.5s; }
+.question_div8 .question { animation-delay: 0.7s; }
+.question_div9 .question { animation-delay: 0.15s; }
+.question_div10 .question { animation-delay: 0.35s; }
+.question_div11 .question { animation-delay: 0.55s; }
+.question_div12 .question { animation-delay: 0.75s; }
+.question_div13 .question { animation-delay: 0.25s; }
+.question_div14 .question { animation-delay: 0.45s; }
+.question_div15 .question { animation-delay: 0.65s; }
+.question_div16 .question { animation-delay: 0.85s; }
+
+.question::before {
+    content: "?";
+    color: white;
+    animation: spin 2s linear infinite;
+}
+
+.question_div1:hover .question::before,
+.question_div2:hover .question::before,
+.question_div3:hover .question::before,
+.question_div4:hover .question::before,
+.question_div5:hover .question::before,
+.question_div6:hover .question::before,
+.question_div7:hover .question::before,
+.question_div8:hover .question::before,
+.question_div9:hover .question::before,
+.question_div10:hover .question::before,
+.question_div11:hover .question::before,
+.question_div12:hover .question::before,
+.question_div13:hover .question::before,
+.question_div14:hover .question::before,
+.question_div15:hover .question::before,
+.question_div16:hover .question::before {
+    content: "!";
+    color: #CAD6D8;
+}
+
+.books {
+    width: 32vw;
+    height: 32vw;
+    background-color: #CAD6D8;
+    position: relative;
+    margin-left: 68vw;
+    margin-top: -32vw;
+    overflow: hidden;
+}
+
+.book1 {
+    position: absolute;
+    margin-left: 2vw;
+    animation: book1_fall 5s ease-in forwards infinite;
+}
+
+@keyframes book1_fall {
+  0% {top: -10vw;}
+  20% {top: 20vw;}
+  100% {top: 20vw;}
+}
+
+.book2 {
+    position: absolute;
+    margin-left: 4vw;
+    animation: book2_fall 5s ease-in forwards infinite;
+}
+
+@keyframes book2_fall {
+  0% {top: -10vw;}
+  20% {top:-10vw;}
+  40% {top: 17vw;}
+  100% {top: 17vw;}
+}
+
+.book3 {
+    position: absolute;
+    margin-left: 3vw;
+    animation: book3_fall 5s ease-in forwards infinite;
+}
+
+@keyframes book3_fall {
+  0% {top: -10vw;}
+  40% {top:-10vw;}
+  60% {top: 13vw;}
+  100% {top: 13vw;}
+}
+
+.book4 {
+    position: absolute;
+    margin-left: 5vw;
+    animation: book4_fall 5s ease-in forwards infinite;
+}
+
+@keyframes book4_fall {
+  0% {top: -10vw;}
+  60% {top:-10vw;}
+  80% {top: 10vw;}
+  100% {top: 10vw;}
+}
+
+.slide {
+    animation: slide 5s ease-in forwards infinite;
+}
+
+@keyframes slide {
+  0% {margin-left: 0vw;}
+  80% {margin-left: 0vw;}
+  100% {margin-left: 30vw;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page {
+    position: relative;
+    width: 50vw;
+}
+
+.chervi {
+    position: relative;
+    margin-left: 50vw;
+    margin-top: -57vw;
+    height: 33vw;
+    width: 50vw;
+    background-color: aquamarine;
 }
