@@ -932,12 +932,91 @@ position: absolute;
 .zuk4 {
     width: 7vw;
     position: absolute;
+    animation: move4 11s linear infinite,
+               spin4 11s linear infinite;
+}
+
+@keyframes move4 {
+    0%   { top: 90%; left: 10%; }
+    25%  { top: 10%;  left: 60%; }
+    50%  { top: 5%; left: 20%; }
+    75%  { top: 50%; left: 40%; }
+    100% { top: 90%; left: 10%; }
+}
+
+@keyframes spin4 {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(0deg); }
+    26%  { transform: rotate(-90deg); }
+    50%  { transform: rotate(-90deg); }
+    51%  { transform: rotate(-270deg); }
+    75%  { transform: rotate(-270deg); }
+    76%  { transform: rotate(-210deg); }
+    99%  { transform: rotate(-210deg); }
+    100% { transform: rotate(-360deg); }
 }
 
 .zuk5 {
     width: 7vw;
     position: absolute;
+    animation: move5 8s linear infinite,
+               spin5 8s linear infinite;
 }
+
+@keyframes move5 {
+    0%   { top: 5%;  left: 5%; }
+    25%  { top: 80%; left: 10%; }
+    50%  { top: 70%; left: 70%; }
+    75%  { top: 10%; left: 80%; }
+    100% { top: 5%;  left: 5%; }
+}
+
+@keyframes spin5 {
+    0%   { transform: rotate(150deg); }
+    25%  { transform: rotate(150deg); }
+    26%  { transform: rotate(20deg); }
+    50%  { transform: rotate(20deg); }
+    51%  { transform: rotate(-20deg); }
+    75%  { transform: rotate(-20deg); } 
+    76%  { transform: rotate(-120deg); }
+    99%  { transform: rotate(-120deg); } 
+    100% { transform: rotate(-360deg); }
+}
+
+.zuk1:hover {
+    animation-play-state: paused;
+    width: 11vw;
+}
+
+.zuk2:hover {
+    animation-play-state: paused;
+    width: 11vw;
+}
+
+.zuk3:hover {
+    animation-play-state: paused;
+    width: 10vw;
+}
+
+.zuk4:hover {
+    animation-play-state: paused;
+    width: 10vw;
+}
+
+.zuk5:hover {
+    animation-play-state: paused;
+    width: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
