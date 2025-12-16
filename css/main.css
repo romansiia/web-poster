@@ -1116,6 +1116,10 @@ position: absolute;
     display: none;
 }
 
+.chervaki_ipd {
+    display: none;
+}
+
 .chervaki {
     position: relative;
     width: 100%;
@@ -1229,6 +1233,10 @@ position: absolute;
 }
 
 .podval_mob {
+    display: none;
+}
+
+.podval_ipd {
     display: none;
 }
 

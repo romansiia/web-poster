@@ -976,7 +976,8 @@
 
 .line p {
   font-size: 14vw;
-  width: 800%;
+  width: 1600%;
+  margin-top: -2vw;
   font-family: "Helvetica-Bold";
   color: white;
 }
@@ -1459,7 +1460,7 @@
 
 .phrase {
   background-color: rgb(255, 255, 255);
-  margin-top: 213vw;
+  margin-top: 135vw;
   width: 100%;
   height: 60vw;
   overflow: hidden;
@@ -1503,7 +1504,7 @@
 
 
 .blocks{
-    margin-top: 260vw;
+    margin-top: 180vw;
     height: 320vw;
     width: 100%;
     position: absolute;
@@ -1511,8 +1512,9 @@
 
 
 .eat {
-    height: 100vw;
-    width: 100vw;
+    height: 94vw;
+    width: 94vw;
+    margin-left: 3vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1525,13 +1527,13 @@
 
 @keyframes sprite2 {
     0%   { transform: translateX(0%); }
-    12%  { transform: translateX(-100vw); }
-    25%  { transform: translateX(-200vw); }
-    37%  { transform: translateX(-300vw); }
-    50%  { transform: translateX(-400vw); }
-    62%  { transform: translateX(-500vw); }
-    75%  { transform: translateX(-600vw); }
-    87%  { transform: translateX(-700vw); }
+    12%  { transform: translateX(-94vw); }
+    25%  { transform: translateX(-188vw); }
+    37%  { transform: translateX(-282vw); }
+    50%  { transform: translateX(-376vw); }
+    62%  { transform: translateX(-470vw); }
+    75%  { transform: translateX(-564vw); }
+    87%  { transform: translateX(-658vw); }
     100% { transform: translateX(0); } 
 }
 
@@ -1539,20 +1541,20 @@
 
 
 .q_a {
-    width: 100vw;
-    height: 100vw;
+    width: 45.5vw;
+    height: 45.5vw;
     background-color: black;
     position: absolute;
-    margin-top: 105vw;
-    margin-left:-0vw;
+    margin-top: 97vw;
+    margin-left: 3vw;
 }
 
 .question_div1 {
     display: flex;
     justify-content: center; 
     align-items: center;
-    height: 25vw;
-    width: 25vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1561,9 +1563,9 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 25vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 11.375vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1572,9 +1574,9 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 50vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 22.75vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1583,9 +1585,9 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 75vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 34.125vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1594,9 +1596,9 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-top: 25vw;
-    height: 25vw;
-    width: 25vw;
+    margin-top: 11.375vw;
+    height: 11.375vw;
+    width: vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1605,10 +1607,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 25vw;
-    margin-top: 25vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 11.375vw;
+    margin-top: 11.375vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1617,10 +1619,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 50vw;
-    margin-top: 25vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 22.75vw;
+    margin-top: 11.375vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1629,10 +1631,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 75vw;
-    margin-top: 25vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 34.125vw;
+    margin-top: 11.375vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1641,9 +1643,9 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-top: 50vw;
-    height: 25vw;
-    width: 25vw;
+    margin-top: 22.75vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1652,10 +1654,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 25vw;
-    margin-top: 50vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 11.375vw;
+    margin-top: 22.75vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1664,10 +1666,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 50vw;
-    margin-top: 50vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 22.75vw;
+    margin-top: 22.75vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1676,10 +1678,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 75vw;
-    margin-top: 50vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 34.125vw;
+    margin-top: 22.75vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1688,9 +1690,9 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-top: 75vw;
-    height: 25vw;
-    width: 25vw;
+    margin-top: 34.125vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1699,10 +1701,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 25vw;
-    margin-top: 75vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 11.375vw;
+    margin-top: 34.125vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1711,10 +1713,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 50vw;
-    margin-top: 75vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 22.75vw;
+    margin-top: 34.125vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
@@ -1723,19 +1725,19 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: 75vw;
-    margin-top: 75vw;
-    height: 25vw;
-    width: 25vw;
+    margin-left: 34.125vw;
+    margin-top: 34.125vw;
+    height: 11.375vw;
+    width: 11.375vw;
     overflow: hidden;
     position: absolute;
 }
 
 .question {
     color: white;
-    font-size: 35vw;
+    font-size: 17vw;
     font-family: "Helvetica-Bold";
-    margin-top: -10vw;
+    margin-top: -5vw;
     animation: spin 2s linear infinite;
 }
 
@@ -1769,68 +1771,68 @@
 
 
 .books {
-    width: 100vw;
-    height: 100vw;
+    width: 45.5vw;
+    height: 45.5vw;
     background-color: #CAD6D8;
     position: absolute;
     overflow: hidden;
-    margin-left: 0vw;
-    margin-top: 210vw;
+    margin-left: 51.5vw;
+    margin-top: 97vw;
 }
 
 .book1 {
     position: absolute;
-    margin-left: 5vw;
+    margin-left: 2vw;
     animation: book1_fall 5s ease-in forwards infinite;
     width: 90%;
 }
 
 @keyframes book1_fall {
-  0%   {top: -60vw;}
-  20%  {top: 62.5vw;}
-  100% {top: 62.5vw;}
+  0%   {top: -27vw;}
+  20%  {top: 28.44vw;}
+  100% {top: 28.44vw;}
 }
 
 .book2 {
     position: absolute;
-    margin-left: 9vw;
+    margin-left: 4vw;
     animation: book2_fall 5s ease-in forwards infinite;
     width: 80%;
 }
 
 @keyframes book2_fall {
-  0%   {top: -660vw;}
-  20%  {top:-60vw;}
-  40%  {top: 53.125vw;}
-  100% {top: 53.125vw;}
+  0%   {top: -27vw;}
+  20%  {top:-27vw;}
+  40%  {top: 24.17vw;}
+  100% {top: 24.17vw;}
 }
 
 .book3 {
     position: absolute;
-    margin-left: 6vw;
+    margin-left: 3vw;
     animation: book3_fall 5s ease-in forwards infinite;
     width: 90%;
 }
 
 @keyframes book3_fall {
-  0%   {top: -60vw;}
-  40%  {top:-60vw;}
-  60%  {top: 40.625vw;}
-  100% {top: 40.625vw;}
+  0%   {top: -27vw;}
+  40%  {top:-27vw;}
+  60%  {top: 18.49vw;}
+  100% {top: 18.49vw;}
 }
 
 .book4 {
     position: absolute;
-    margin-left: 8vw;
+    margin-left: 4vw;
     animation: book4_fall 5s ease-in forwards infinite;
     width: 82%;
 }
 
 @keyframes book4_fall {
-  0%   {top: -60vw;}
-  60%  {top:-60vw;}
-  80%  {top: 31.25vw;}
-  100% {top: 31.25vw;}
+  0%   {top: -27vw;}
+  60%  {top:-27vw;}
+  80%  {top: 14.22vw;}
+  100% {top: 14.22vw;}
 }
 
 .slide {
@@ -1847,7 +1849,7 @@
     position: absolute;
     width: 100vw;
     height: 116vw;
-    margin-top: 575vw;
+    margin-top: 325vw;
 }
 
 .page_img {
@@ -2000,7 +2002,7 @@
 
 .chervi { 
     position: absolute; 
-    margin-top: 695vw; 
+    margin-top: 445vw; 
     margin-left: 0vw;
     height: 66vw; 
     width: 100vw; 
@@ -2028,7 +2030,7 @@
     position: absolute;
     background-color: #A6B5B7; 
     margin-left: 0vw;
-    margin-top: 770vw;
+    margin-top: 520vw;
     width: 100vw;
     height: 44vw;
     overflow: hidden;
@@ -2065,7 +2067,7 @@
 
 .run-line {
     background-color: black;
-    margin-top: 815vw;
+    margin-top: 565vw;
     height: 17vw;
     width: 100%;
     position: absolute;
@@ -2074,7 +2076,8 @@
 
 .line p {
   font-size: 14vw;
-  width: 800%;
+  margin-top: -2vw;
+  width: 1600%;
   font-family: "Helvetica-Bold";
   color: white;
 }
@@ -2090,27 +2093,31 @@
 }
 
 
-.chervaki_mob {
+.chervaki_ipd {
     height: 100%;
     width: 200%;
-    animation: sprite_mob 1s steps(1) infinite;
+    animation: sprite_ipd 1s steps(1) infinite;
     position: absolute;
     display: block;
 }
 
 .chervaki {
     position: absolute;
-    width: 100%;
-    height: 223vw;
+    width: 100vw;
+    height: 134vw;
     overflow-y: hidden;
-    margin-top: 830vw;
+    margin-top: 580vw;
 }
 
 .chervaki_img {
     display: none;
 }
 
-@keyframes sprite_mob {
+.chervaki_mob {
+    display: none;
+}
+
+@keyframes sprite_ipd {
     0%   { transform: translateX(0%); }
     50%  { transform: translateX(-100vw); }
     100% { transform: translateX(0); } 
@@ -2119,9 +2126,9 @@
 
 .kniga1 {
     position: absolute;
-    margin-left: 13vw;
-    margin-top: 850vw;
-    width: 45vw;
+    margin-left: 4vw;
+    margin-top: 660vw;
+    width: 40vw;
 }
 
 .kniga1_img {
@@ -2131,9 +2138,9 @@
 
 .kniga2 {
     position: absolute;
-    margin-top: 882vw;
-    margin-left: 28vw;
-    width: 45vw;
+    margin-top: 660vw;
+    margin-left: 16vw;
+    width: 40vw;
 }
 
 .kniga2_img {
@@ -2143,9 +2150,9 @@
 
 .kniga3 {
     position: absolute;
-    margin-top: 914vw;
-    margin-left: 43vw;
-    width: 45vw;
+    margin-top: 660vw;
+    margin-left: 28vw;
+    width: 40vw;
 }
 
 .kniga3_img {
@@ -2155,9 +2162,9 @@
 
 .kniga4 {
     position: absolute;
-    margin-top: 946vw;
-    margin-left: 28vw;
-    width: 45vw;
+    margin-top: 660vw;
+    margin-left: 40vw;
+    width: 40vw;
 }
 
 .kniga4_img {
@@ -2167,9 +2174,9 @@
 
 .kniga5 {
     position: absolute;
-    margin-top: 978vw;
-    margin-left: 13vw;
-    width: 45vw;
+    margin-top: 660vw;
+    margin-left: 52vw;
+    width: 40vw;
 }
 
 .kniga5_img {
@@ -2180,12 +2187,12 @@
 .podval_back {
     position: absolute;
     width: 100%;
-    height: 65vw;
+    height: 19.27vw;
     overflow: hidden;
-    margin-top: 1050vw;
+    margin-top: 710vw;
 }
 
-.podval_mob {
+.podval_ipd {
     display: block;
     width: 100%;
 }
