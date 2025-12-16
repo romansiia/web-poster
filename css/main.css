@@ -1029,7 +1029,7 @@ position: absolute;
 } 
 
 @keyframes sprite3 { 
-    0%  { transform: translateX(0%); } 
+    0%  { transform: translateX(0vw); } 
     17% { transform: translateX(-50vw); } 
     33% { transform: translateX(-100vw); } 
     50% { transform: translateX(-150vw); } 
