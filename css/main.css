@@ -1028,11 +1028,6 @@ position: absolute;
     position: absolute; 
 } 
 
-.chervi_img:hover {
-    animation-play-state: paused;
-}
-
-
 @keyframes sprite_chervi { 
     0%  { transform: translateX(0vw); } 
     17% { transform: translateX(-50vw); } 
